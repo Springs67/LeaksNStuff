@@ -14,7 +14,7 @@ if getgenv == nil then
 	getgenv = function() return {} end
 end
 
-local GuiScale = 0.9
+local GuiScale = 1.1
 
 local makefolder = getgenv().makefolder or function() warn("MAKEFOLDER NOT SUPPORTED!") end
 local writefile = getgenv().writefile or function() warn("WRITEFILE NOT SUPPORTED!") end
